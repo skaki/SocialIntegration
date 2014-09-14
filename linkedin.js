@@ -37,3 +37,13 @@ function lnlogin (options) {
     });
 	return promise; 
 };
+
+
+// usage
+
+$.when( lnlogin () ).done( function(result) { console.log ( result)});
+
+
+
+
+
